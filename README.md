@@ -18,7 +18,7 @@ Static site. No build step, no dependencies. Every page is plain HTML + one CSS 
 
 ## Before going live — things to replace
 1. **Contact form.** `contact.html` posts to Formspree. Create a free form at formspree.io and swap `YOUR_FORM_ID` in the `action` attribute. Netlify Forms or Basin work the same way. GitHub Pages cannot process forms itself.
-2. **Email address.** `info@legacylandscaping.ca` appears in `contact.html` — change if different.
+2. **Email address.** `llgexteriors@gmail.com` appears in `contact.html` — change if different.
 3. **Stats on `why.html`.** "10+ years", "450+ properties", "24h quote turnaround", "12 months a year" are placeholders — set them to real numbers or delete them.
 4. **Service areas** listed in `contact.html`.
 5. **Photo captions** in `work.html` — currently descriptive guesses.
