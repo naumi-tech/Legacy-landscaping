@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact — Legacy Landscaping</title>
+<meta name="description" content="Free written estimates within one business day. Call (519) 728-8589 or send the form.">
+<link rel="icon" href="assets/logo.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600;700;800;900&family=Barlow:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="index.html"><img src="assets/logo.jpg" alt="Legacy Landscaping"></a>
+      <button class="nav-toggle" aria-label="Menu" aria-expanded="false">☰</button>
+      <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Our Work</a>
+        <a href="why.html">Why Legacy</a>
+        <a href="contact.html" class="is-active">Contact</a>
+      </nav>
+      <a class="btn btn-green header-phone" href="tel:5197288589">(519) 728-8589</a>
+    </div>
+  </header>
+  <section class="band-dark contact">
+    <div class="wrap two-col">
+      <div>
+        <p class="eyebrow">Free estimate</p>
+        <h1>Tell us about<br>the property</h1>
+        <p class="lede">Send a few details and we will get back within one business day with a written quote or a time to come look.</p>
+        <div class="contact-details">
+          <a class="big-phone" href="tel:5197288589">(519) 728-8589</a>
+          <a href="mailto:info@legacylandscaping.ca">info@legacylandscaping.ca</a>
+          <p>Mon &ndash; Sat, 7am &ndash; 7pm<br>Ottawa, Nepean, Barrhaven, Orl&eacute;ans, Kanata<br>Residential &amp; commercial</p>
+        </div>
+        <img class="contact-photo" src="assets/photos/p25.jpeg" alt="Finished lawn maintenance" loading="lazy">
+      </div>
+      <form class="quote-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <div class="field-row">
+          <label>Name<input type="text" name="name" placeholder="Jane Doe" required></label>
+          <label>Phone<input type="tel" name="phone" placeholder="(519) 000-0000" required></label>
+        </div>
+        <label>Email<input type="email" name="email" placeholder="you@email.com"></label>
+        <label>Service needed
+          <select name="service">
+            <option>Junk removal</option>
+            <option>Snow removal</option>
+            <option>Lawn maintenance</option>
+            <option>Sod installation</option>
+            <option>Mulch &amp; garden beds</option>
+            <option>Interlock &amp; pavers</option>
+            <option>More than one / not sure</option>
+          </select>
+        </label>
+        <label>Details<textarea name="details" rows="5" placeholder="Approximate size, timing, anything else"></textarea></label>
+        <button type="submit" class="btn btn-green btn-block">Request my estimate</button>
+        <p class="form-note">Or call <a href="tel:5197288589">(519) 728-8589</a> directly.</p>
+      </form>
+    </div>
+  </section>
+<footer class="site-footer">
+    <div class="wrap footer-inner">
+      <img src="assets/logo.jpg" alt="Legacy Landscaping" class="footer-logo">
+      <nav class="footer-nav">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="work.html">Our Work</a>
+        <a href="why.html">Why Legacy</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <div class="footer-meta">&copy; 2026 Legacy Landscaping &middot; <a href="tel:5197288589">(519) 728-8589</a></div>
+    </div>
+  </footer>
+<script src="script.js"></script>
+</body>
+</html>
